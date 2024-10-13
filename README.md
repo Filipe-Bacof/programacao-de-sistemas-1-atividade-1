@@ -14,28 +14,35 @@ O objetivo deste projeto é desenvolver um programa em Java que efetue a multipl
 ## Como funciona a multiplicação de matrizes
 
 - Ao multiplicar uma matriz "A" com 2 linhas e 3 colunas, por outra matriz "B" de 3 linhas e 2 colunas, o resultado sempre será uma terceira matriz "C" com o número de linhas de "A" e o número de colunas de "B".
-  ![Como funciona a multiplicação](assets/enunciado1.jpg)
+
+![Como funciona a multiplicação](assets/enunciado1.jpg)
+
 - Os elementos de C são os resultados do somatório da multiplicação entre cada par de elementos da relação, como na imagem abaixo:
-  ![Como calcular](assets/enunciado2.jpg)
+
+![Como calcular](assets/enunciado2.jpg)
 
 ## Prints do Algoritmo
 
 Aqui o print do código capturado usando o CodeSnap no VS Code:
+
 ![Código](assets/code.png)
 
 ### Primeira execução
 
 Na primeira execução multipliquei duas matrizes simples, sendo a primeira matriz de 2x3 e a segunda matriz de 3x2, resultando uma matriz de 2x2
+
 ![Execução 1](assets/execucao1.jpg)
 
 ### Segunda execução
 
 Na segunda execução temos um erro, onde não é possível efetuar a multiplicação, pois é necessário que o número de colunas da matriz "A" seja igual ao número de linhas da matriz "B"
+
 ![Execução 2](assets/execucao2.jpg)
 
 ### Terceira execução
 
 Na terceira execução temos um cálculo mais complexo para validar o algoritmo. Temos a matriz "A" com 2 linhas e 5 colunas, e a matriz "B" com 5 linhas e 4 colunas. O resultado acaba sendo uma matriz de 2 linhas por 4 colunas.
+
 ![Execução 3](assets/execucao3.jpg)
 
 #### Explicando a multiplicação da terceira execução:
